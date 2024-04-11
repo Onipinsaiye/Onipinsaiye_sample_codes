@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriTech.com</title>
+    <link rel="icon" type="image/agric-icon" href="img/agriculture-icon-logo-vector-design-template_827767-2374.avif">
+</head>
+<body>
+    <div class="covering" id="covering">
+        <div class="header" id="header">
+            <h3><em>Third Party Transporter Registration</em></h3>
+            <p>
+                Kindly provide the following details pertaining to the <br>
+                transporter information
+            
+            </p>
+        </div>
+        <form action="thirdtransporter"  method="post" autocomplete="off"> <br>
+            <label for="firstName" id="top-word" class="top-word">First Name</label> <br> 
+            <input type="text" name="firstName" placeholder="Transporter name"> <br>
+            <br>
+            <label for="lastName">Last Name (Surname)</label> <br> 
+            <input type="text" name="lastName" placeholder="Transporter surname"> <br>
+            <br>
+            <label for="address">Residential Address</label> <br>
+            <input type="text" name="address" placeholder="Transporter address"> <br>
+            <br>
+            <label for="ward">Ward</label> <br>
+            <input type="text" name="ward" placeholder="Transporter ward"> <br>
+            <br>
+            <label for="lga">Local Government Area (lga)</label> <br>
+            <input type="text" name="lga" placeholder="Transporter lga"> <br>
+            <br>
+            <label for="state">State</label> <br>
+            <input type="text" name="state"  placeholder="Enter state"> <br>
+            <br>
+            <label for="phoneNumber1">Phone Number 1</label> <br>
+            <input type="number" name="phoneNumber1" maxlength="11" autocomplete="off" placeholder="Enter personal phone number"> <br>
+            <br>
+            <label for="phoneNumber2">Phone Number 2 (optional)</label> <br>
+            <input type="number" name="phoneNumber2" maxlength="11" placeholder="Enter second personal phone number"> <br>
+            <br>
+            <label for="phoneNumber3">Phone Number 3 (optional)</label> <br>
+            <input type="number" name="phoneNumber3" maxlength="11" placeholder="Enter third personal phone number"> <br>
+            <br>
+            <label for="driverLicense">Driver License Number (compulsory)</label> <br>
+            <input type="text" name="driverLicense" placeholder="Enter driver license number"> <br>
+            <br>
+            <label for="gaurantor">Upload Signed Agreement Form</label> <br>
+            <input type="file" name="agreement"> <br>
+            <br>
+            <label for="frontview">Upload Front View Picture of Vehicle</label> <br>
+            <input type="file" name="frontview"> <br>
+            <br>
+            <label for="sideview">Upload Side View Picture of Vehicle</label> <br>
+            <input type="file" name="sideview"> <br>
+            <br>
+            <label for="backview">Upload Back View Picture of Vehicle</label> <br>
+            <input type="file" name="backview"> <br>
+            <br>
+            <input type="checkbox">
+            <label for="terms">I have read the <a href="termtransporter">terms and conditions</a></label> <br><br>
+            <button type="submit" style="width: 150px; height: 30px;" name="backbtn" class="btn">Back</button>
+            <button type="submit" style="width: 150px; height: 30px;" name="submitbtn" class="btn">Submit</button>
+        </form>
+            <br>
+        <footer style="font-family: cursive; text-align:center;" >
+            <h2><em>&copy; Victor Onipinsaiye,<%= year %>. All rights reserved </em></h2>
+        </footer>
+    </div>
+    <?php
+    
+
+    ?>
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/65d3151d9131ed19d96e81e3/1hn08kvnl';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+<style>
+    a{
+        color: purple;
+        text-decoration: none;
+    }
+    input[type="checkbox"]{
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+    }
+    input, select, button{
+        width: 85%;
+        height: 40px;
+        margin-left: 10px;
+    }
+    .covering{
+        margin-top: 10px;
+        margin-left: 350px;
+        margin-bottom: 30px;
+        border: 2px solid whitesmoke;
+        width:612px ;
+        height: 1600px;
+        font-family: cursive;
+        background-image: url(/img/Babbangona02.jpeg);
+        background-repeat: no-repeat;
+        background-size: 520vh;
+        color: whitesmoke;
+    }
+    .header{
+        text-align: center;
+    }
+    fieldset{
+        width: 500px;
+        border-color: whitesmoke;
+        margin: auto;
+    }
+    label{
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .top-word{
+        margin-top: 50px;
+    }
+
+
+
+</style>
+</html>
